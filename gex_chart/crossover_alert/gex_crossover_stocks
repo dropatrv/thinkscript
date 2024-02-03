@@ -9,7 +9,7 @@
 
 declare lower;
 declare once_per_bar;
-input strikeSpacing = 1;
+input strikeSpacing = 1.0;
 input setThreshold = 20;
 def threshold = setThreshold;
 input strikes = 10;
